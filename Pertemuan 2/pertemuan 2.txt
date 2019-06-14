@@ -1,0 +1,348 @@
+Microsoft Windows [Version 10.0.17134.648]
+(c) 2018 Microsoft Corporation. All rights reserved.
+
+
+C:\Users\Who I Am>python
+
+
+Python 3.7.1 (default, Dec 10 2018, 22:54:23) [MSC v.1915 64 bit (AMD64)] :: Anaconda, Inc. on win32
+
+Type "help", "copyright", "credits" or "license" for more information.
+
+
+>>> pins = {"Vitrozan": 1234, "Baitul": 3333, "Alam": 9999}
+
+
+>>> pins["Vitrozan"]
+
+
+1234
+
+
+>>> type(pins["Baitul"])
+
+
+<class 'int'>
+
+
+>>> pins.keys()
+
+
+dict_keys(['Vitrozan', 'Baitul', 'Alam'])
+
+
+>>> pins.values()
+
+
+dict_values([1234, 3333, 9999])
+
+
+>>> pins["MassKing"] = 7777
+
+
+>>> pins
+
+{'Vitrozan': 1234, 'Baitul': 3333, 'Alam': 9999, 'MassKing': 7777}
+
+
+>>> pins.pop("MassKing")
+
+7777
+
+
+>>> pins
+
+{'Vitrozan': 1234, 'Baitul': 3333, 'Alam': 9999}
+
+
+>>> pins["Affandi"] = 'AB123'
+
+
+>>> pins
+
+{'Vitrozan': 1234, 'Baitul': 3333, 'Alam': 9999, 'Affandi': 'AB123'}
+
+
+>>> masukan =input("Masukan Nama Anda :")
+
+
+Masukan Nama Anda :Sobatmissqueen
+
+
+>>> bilangan = input("Masukan angka :")
+
+
+Masukan angka :100
+
+
+>>> print(masukan)
+
+Sobatmissqueen
+
+
+>>> type(masukan)
+
+<class 'str'>
+
+
+>>> bilangan = int(input("masukan angka :"))
+
+
+masukan angka :86
+
+
+>>> type(bilangan)
+
+
+<class 'int'>
+
+
+>>> print(bilangan**2)
+
+
+7396
+
+
+>>> bilangan= float(input("masukan angka :"))
+
+
+masukan angka :10
+
+
+>>> print(bilangan/2)
+
+
+5.0
+
+
+>>> bilangan = float(input("masukan angka :"))
+
+
+masukan angka :9.5
+
+
+>>> type(bilangan)
+
+
+<class 'float'>
+
+
+>>> print(bilangan/2)
+
+
+4.75
+
+
+>>> pins {'Vitrozan': 1234, 'Baitul': 3333, 'Alam': 9999, 'Affandi': 'AB123'}
+
+
+
+>>> pins.values()
+
+
+dict_values([1234, 3333, 9999, 'AB123'])
+
+
+>>> kode = 9999
+
+
+>>> kode in pins.values()
+
+
+True
+
+
+>>> kode = 1111
+
+
+>>> kode in pins.values()
+
+
+False
+
+
+>>> if 1<5:
+
+... print("Yes")
+
+
+... else:
+
+... print("No")
+
+
+...
+
+Yes
+
+>>>
+
+
+>>> if 1==5:
+
+... print("Benar")
+
+
+... else:
+
+
+... print("Salah")
+
+
+...
+
+Salah
+
+
+>>> user_input = float(input("Masukan angka :"))
+
+
+Masukan angka :77
+
+
+>>> if user_input >100:
+
+
+... print("Greater")
+
+
+... else:
+
+
+... print("Smaller")
+
+
+...
+
+Smaller
+
+
+>>> if user_input >100:
+
+
+... print("Lebih Besar")
+
+
+... elif user_input == 100:
+
+
+... print("Sama Dengan")
+
+
+... else:
+
+
+... print("Lebih Kecil")
+
+
+...
+
+Lebih Kecil
+
+
+>>> user_input = float(input("Masukan Angka :"))
+
+
+Masukan Angka :100
+
+
+>>> if user_input >100:
+
+
+... print("Lebih Besar")
+
+
+... elif user_input == 100:
+
+
+... print("Sama Dengan")
+
+
+... else:
+
+
+... print("Lebih Kecil")
+
+
+...
+
+Sama Dengan
+
+
+>>> def printing():
+
+
+... print("Hallo Sobat")
+
+
+... print("Sultan")
+
+
+...
+
+
+>>> printing()
+
+
+Hallo Sobat
+
+
+Sultan
+
+
+>>> def luas_persegi(sisi):
+
+
+... luas = sisi * sisi
+
+
+... return luas
+
+
+...
+
+
+>>> luas_persegi(9)
+
+81
+
+
+>>> def luas_segitiga(alas,tinggi):
+
+
+... luas = (alas*tinggi)/2
+
+
+... print("Luas Segitiga : %d" %luas)
+
+
+...
+
+
+>>> luas_segitiga(100,50)
+
+Luas Segitiga : 2500
+
+
+>>> def hitung_umur(tahun):
+
+
+... umur = 2019-tahun
+
+
+... print("Umur Saya : %d" %umur)
+
+
+...
+
+
+>>> hitung_umur(2000)
+
+
+Umur Saya : 19
+
+
+>>>
+
+
+>>>
