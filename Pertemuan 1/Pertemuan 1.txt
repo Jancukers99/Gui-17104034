@@ -1,0 +1,19 @@
+Microsoft Windows [Version 10.0.17134.765]
+(c) 2018 Microsoft Corporation. All rights reserved.
+
+C:\Users\Who I Am>python
+Python 3.7.1 (default, Dec 10 2018, 22:54:23) [MSC v.1915 64 bit (AMD64)] :: Anaconda, Inc. on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> karakter ="Jon Snow"
+>>> print (karakter)
+Jon Snow
+>>> price = "10"
+>>> print(price)
+10
+>>> x=7
+>>> y=8
+>>> z=2
+>>> hasil =((x*y)**z)/8
+>>> print(hasil)
+392.0
+>>>
